@@ -1,8 +1,26 @@
 section
 {
   border:1px solid black;
-  p
+  width:1200px;
+  margin-left:50px;
+  position:relative;
+  article
   {
-    color:blue;
-  }  
+    border:1px solid blue;
+    width:600px;
+    margin-left: 20px;
+    p
+    {
+      
+    }
+  }
+  aside
+      {
+        border:1px solid red;
+        position: absolute;
+        top:950;
+        right:0px;
+      }
+
+  
 }
