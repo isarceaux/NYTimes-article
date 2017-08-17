@@ -88,4 +88,8 @@ Rails.application.configure do
 
   # Do not dump schema after migrations.
   config.active_record.dump_schema_after_migration = false
+
+  #Added to enable fonts
+  config.assets.enabled = true
+  config.assets.paths << Rails.root.join('/app/assets/fonts')
 end
