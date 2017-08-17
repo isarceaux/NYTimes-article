@@ -1,8 +1,9 @@
 
 header
 {
-  h1
-  {
-    color:red;
-  }  
+  .container {
+  position:relative;
+  min-height: 47px;
+  border-bottom: 1px solide #ccc;
+  }
 }
