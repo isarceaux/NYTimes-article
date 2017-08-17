@@ -4,3 +4,17 @@
 
 @import "bootstrap-sprockets";
 @import "bootstrap";
+
+body
+{
+  display:flex;
+  flex-direction: row;
+}
+
+nav
+{
+  width:30px;
+  top:0;
+  left:0;
+  border-right:1px solid grey;
+}
