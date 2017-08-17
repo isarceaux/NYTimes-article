@@ -58,6 +58,51 @@ section
     {
 
     }
+    .floating
+    {
+      width:310px;
+      height:160px;
+      border-top:solid 1px rgb(226,226,226);
+      border-bottom:solid 1px rgb(226,226,226);
+      margin-right: 15px;
+      margin-bottom: 15px;
+      float:left;
+      h2
+      {
+        margin-bottom:0;
+      }
+      p
+      {
+        font-size:0.9em;
+        margin-top:0;
+        margin-bottom:0;
+      }
+      .button
+      {
+        font-weight: bold;
+        padding:10px;
+        background-color:rgb(243,243,243);
+        border: solid 0.5px rgb(226,226,226);
+        border-radius: 4px; 
+        font-size:1em;
+        width:95px;
+        margin-top:10px;
+        margin-bottom:10px;
+
+      }
+      .button:hover
+      {
+        background-color:rgb(85,118,144);
+        color:white;
+      }
+      .links
+        {
+          font-size:0.7em;
+          border-top:solid 1px rgb(226,226,226);
+          color:rgb(153,153,153);
+          padding-top:5px;
+        }
+    }
   }
 
   .image-bloc
@@ -173,4 +218,34 @@ section
 
     }
 
+    .comment-image
+    {
+      width:645px;
+      font-size:0.8em;
+      color:rgb(102,102,102);
+      .author
+      {
+        color:rgb(135,135,135);
+      }
+    }
+
+    .floating-right
+    {
+      float:right;
+      margin-left:20px;
+    }
+
+    .traits
+    {
+      width:60px;
+      border-bottom: solid 1px rgb(102,102,102);
+    }
+
+    .compliance
+    {
+      font-size: 0.8em;
+      color:rgb(102,102,102);
+      padding-top: 20px;
+      padding-bottom: 20px;
+    }
 }
