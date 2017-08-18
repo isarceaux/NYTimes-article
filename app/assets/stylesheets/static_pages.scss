@@ -4,9 +4,9 @@
 
 @font-face {
     font-family: 'nyt-franklin';
-      src: url('assets/fonts/librefranklin-black.ttf') format('truetype');
+      src: url('./fonts/librefranklin-black.ttf') format('truetype');
     font-family:'nyt-cheltenham';
-      src: url('assets/fonts/Cheltenham-NormalRegular.ttf') format('truetype');
+      src: url('./fonts/Cheltenham-NormalRegular.ttf') format('truetype');
    }
     
 body
@@ -23,6 +23,6 @@ nav
   top:0;
   left:0;
   border-right:1px solid rgb(226,226,226);
-  background-image: url(assets/shadow.png);
+  background-image: url(./shadow.png);
   background-repeat : repeat-y;
 }
